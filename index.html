@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Olguin Propiedades</title>
+</head>
+
+<body>
+    <!--==================== Cabeza ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <!-- Olguin Propiedades --> <img class="logo3" src="/assets/img/logo3.png" alt="">
+            </a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home-alt-2'></i>
+                            <span>Inicio</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#popular" class="nav__link">
+                            <i class='bx bx-building-house'></i>
+                            <span>Parcelas</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#value" class="nav__link">
+                            <i class='bx bx-award'></i>
+                            <span>Nosotros</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-phone'></i>
+                            <span>Contacto</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- boton modo oscuro/claro -->
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Buscando Una <br> Propiedad?
+                    </h1>
+                    <p class="home__description">
+                        Encuentra tu parcela perfecta sin complicaciones. Contáctanos hoy mismo y haz realidad tu sueño de tener tu propia propiedad.
+                    </p>
+                    <div class="home__value">
+                        <div>
+                            <h1 class="home__value-number">
+                                45 <span>+</span>
+                            </h1>
+                            <span class="home__value-description">
+                                Parcelas <br> Vendidas
+                            </span>
+                        </div>
+                        <div>
+                            <h1 class="home__value-number">
+                                40 <span>+</span>
+                            </h1>
+                            <span class="home__value-description">
+                                Clientes <br> Felices
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="home__images">
+                    <div class="home__orbe"></div>
+
+                    <div class="home__img">
+                        <img src="assets/img/BODY.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+
+        <!--==================== PARCELA MAIN ====================-->
+        <section class="popular section" id="popular">
+            <div class="container">
+                <span class="section__subtitle">Proyectos</span>
+                <h2 class="section__title">
+                    Parcelaciones Disponibles<span>.</span>
+                </h2>
+
+                <div class="popular__container swiper">
+                    <div class="swiper-wrapper">
+                        <article class="popular__card swiper-slide">
+                            <img src="assets/img/Lomas-de-Karelia-1-1.jpg" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>Desde $</span>45.000.000
+                                </h2>
+                                <h3 class="popular__title">
+                                    Lomas de Karelia
+                                </h3>
+                                <p class="popular__description">
+                                    Emplazado a 2KM del Lago Rapel <br>
+                                     Sector Llallauquén
+                                </p>
+                                <button class="button ver-mas">Ver Mas</button>
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img src="assets/img/Llanos-del-Aromo-1.jpg" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>Desde $</span>45.000.000
+                                </h2>
+                                <h3 class="popular__title">
+                                    LLanos del Aromo
+                                </h3>
+                                <p class="popular__description">
+                                    Emplazado en Los Aromos <br>
+                                    Comuna de Las Cabras
+                                </p>
+                                <button class="button ver-mas">Ver Mas</button>
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img src="assets/img/vendido2.jpg" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>Desde $</span>40.000.000
+                                </h2>
+                                <h3 class="popular__title">
+                                    Llanos de Almahue
+                                </h3>
+                                <p class="popular__description">
+                                    Emplazado en la comuna de Pichidegua
+                                </p>
+                                <button class="button ver-mas" style="color: red;">VENDIDO</button>
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img src="assets/img/Pirkas-de-Karelia-1-1.jpg" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>Desde $</span>45.000.000
+                                </h2>
+                                <h3 class="popular__title">
+                                    Pirkas de Karelia
+                                </h3>
+                                <p class="popular__description">
+                                    Emplazado a 2KM del Lago Rapel <br>
+                                     Sector Llallauquén
+                                </p>
+                                <button class="button ver-mas">Ver Mas</button>
+                            </div>
+                        </article>
+                        
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class='bx bx-chevron-right'></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class='bx bx-chevron-left'></i>
+                    </div>
+                </div>
+                <div class="popular__container swiper">
+                    <div class="swiper-wrapper">
+                        <article class="popular__card swiper-slide">
+                            <img src="assets/img/vendido3.jpg" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>Desde $</span>30.000.000
+                                </h2>
+                                <h3 class="popular__title">
+                                    Altos de Millahue
+                                </h3>
+                                <p class="popular__description">
+                                    Emplazado en San Vicente <br>
+                                    sector Laguna de Millahue
+                                </p>
+                                <button class="button ver-mas" style="color: red;">VENDIDO</button>
+
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img src="assets/img/Maitenes-de-Cocalan-1-1.jpg" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>Desde $</span>45.000.000
+                                </h2>
+                                <h3 class="popular__title">
+                                    Maitenes de Cocalan
+                                </h3>
+                                <p class="popular__description">
+                                    Emplazado en el Valle de Quilicura <br>
+                                     Comuna de Las Cabras
+                                </p>
+                                <button class="button ver-mas">Ver Mas</button>
+                            </div>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <img src="assets/img/vendido1.jpg" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>$</span>750.000.000
+                                </h2>
+                                <h3 class="popular__title">
+                                    8 Hectáreas con orilla Lago Rapel
+                                </h3>
+                                <p class="popular__description">
+                                    Llallauquén, <br> comuna de Las Cabras
+                                </p>
+                                <button class="button ver-mas" style="color: red;">VENDIDO</button>
+                            </div>
+                        </article>
+                        
+                        <article class="popular__card swiper-slide">
+                            <a href="Refugio.html" target="_blank">
+                                <img src="assets/img/Refugio-del-Lago-1.jpg" alt="" class="popular__img">
+                            </a>
+                            <div class="popular__data">
+                                <h2 class="popular__price">
+                                    <span>Desde $</span>40.000.000
+                                </h2>
+                                <h3 class="popular__title">
+                                    Refugio del Lago
+                                </h3>
+                                <p class="popular__description">
+                                    Emplazado en El Estero <br>
+                                    Comuna de Las Cabras, Lago Rapel
+                                </p>
+                                <button class="button ver-mas">Ver Mas</button>
+                            </div>
+                        </article>
+                        
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class='bx bx-chevron-right'></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class='bx bx-chevron-left'></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== NOSOTROS ====================-->
+        <section class="value section" id="value">
+            <div class="value__container container grid">
+                <div class="value__images">
+                    <div class="value__orbe"></div>
+
+                    <div class="value__img">
+                        <img src="assets/img/nosotros.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="value__content">
+                    <div class="value__data">
+                        <span class="section__subtitle">Nosotros</span>
+                        <h2 class="section__title">
+                            ¿Quienes Somos?<span>.</span>
+                        </h2>
+                        <p class="value__description">
+                            Confía en Olguin Propiedades para encontrar tu paraíso en la tierra.
+                        </p>
+                    </div>
+
+                    <div class="value__accordion">
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bxs-check-shield value__accordion-icon'></i>
+                                <h3 class="value__accordion-title">
+                                    Vision
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Nuestra visión es convertirnos en la corredora de propiedades líder en la región en el rubro inmobiliario, brindando a nuestros clientes un servicio excepcional y una experiencia inolvidable en la compra o venta de terrenos. Nos esforzamos por ser reconocidos como una empresa comprometida con la calidad, la confianza y la transparencia, construyendo relaciones duraderas con nuestros clientes y asegurando su satisfacción. Trabajamos todos los días para alcanzar nuestra visión, mejorando continuamente nuestros procesos y servicios, y buscando nuevas formas de sorprender a nuestros clientes y superar sus expectativas.                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bxs-check-square value__accordion-icon'></i>
+                                <h3 class="value__accordion-title">
+                                    Mision
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    En Olguin Propiedades, nuestra misión es brindar a nuestros clientes un servicio personalizado y de calidad en la compra, venta o arriendo de parcelas, buscando siempre su satisfacción y creando relaciones duraderas basadas en la confianza y el respeto mutuo. Nos comprometemos a operar con transparencia, ética y responsabilidad, cumpliendo con los más altos estándares de profesionalismo en el mercado inmobiliario. Nos esforzamos por mantenernos actualizados en las tendencias y tecnologías del mercado, para poder ofrecer a nuestros clientes las mejores soluciones y opciones de inversión.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bxs-bar-chart-square value__accordion-icon'></i>
+                                <h3 class="value__accordion-title">
+                                    Satisfaccion
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    La satisfacción del cliente es nuestra máxima prioridad. Nos esforzamos por brindar un servicio excepcional, personalizado y orientado a las necesidades y expectativas de cada cliente. Para lograr esto, trabajamos con transparencia y honestidad en todas nuestras transacciones, manteniendo una comunicación fluida y constante con nuestros clientes en todo momento. Además, ofrecemos soluciones flexibles y personalizadas, adaptándonos a las necesidades y preferencias individuales de cada cliente.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bxs-heart-square value__accordion-icon'></i>
+                                <h3 class="value__accordion-title">
+                                    Compromiso
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Nuestro compromiso es con nuestros clientes, la comunidad y el medio ambiente. Nos comprometemos a operar con los más altos estándares de ética, transparencia y responsabilidad en todas nuestras actividades comerciales, y a cumplir con todas las leyes y regulaciones aplicables.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CONTACTO ====================-->
+        <section class="contact section" id="contact">
+            <div class="contact__container container grid">
+                <div class="contact__images">
+                    <div class="contact__orbe"></div>
+
+                    <div class="contact__img">
+                        <img src="assets/img/contacto correcto.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <div class="contact__data">
+                        <span class="section__subtitle">Contactanos</span>
+                        <h2 class="section__title">
+                            ¿Hablamos?<span>.</span>
+                        </h2>
+                        <p class="contact__description">
+                            ¿Tiene problemas para encontrar la parcela de sus sueños? ¿Necesita una guía? ¿O necesita una consulta sobre temas técnicos? Contáctenos.
+                        </p>
+                    </div>
+
+                    <div class="contact__card">
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class='bx bxs-phone-call'></i>
+
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        Llamar
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        +56 9 3244 6513
+                                    </p>
+                                </div>
+                            </div>
+
+                            <button class="button contact__card-button">
+                                <a href="tel:+56932446513" style="text-decoration: no;">Llamanos</a>
+
+                            </button>
+                        </div>
+
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class='bx bxs-message-rounded-dots'></i>
+
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        Whatsapp
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        +56 9 3244 6513
+                                    </p>
+                                </div>
+                            </div>
+
+                            <button class="button contact__card-button">
+                                <a href="https://wa.me/+56932446513" target="_blank">Abrir WhatsApp</a>
+                            </button>
+                        </div>
+
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class='bx bxs-envelope'></i>
+
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        Formulario
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        ¿Quieres que te llamemos?
+                                    </p>
+                                </div>
+                            </div>
+
+                            <button class="button contact__card-button">
+                               <a href="#">Ir</a>
+                            </button>
+                        </div>
+
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class='bx bxs-envelope'></i>
+
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        E-Mail
+                                    </h3>
+                                    <p class="contact__card-description">
+                                    Envianos un correo
+                                    </p>
+                                </div>
+                            </div>
+
+                            <button class="button contact__card-button">
+                                <a href="mailto:olguind.propiedades@gmail.com?subject=Contacto Pagina Web" target="_blank">Enviar Correo</a>
+
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div>
+              <img src="assets/img/logo3.png" alt="">
+            </div>
+
+            <div class="footer__content">
+                
+                <div>
+                    <h3 class="footer__title">
+                        Menu
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#home" class="footer__link">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#popular" class="footer__link">Parcelas</a>
+                        </li>
+                        <li>
+                            <a href="#value" class="footer__link">Nosotros</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">
+                        Extras
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Reportar Problemas</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">
+                        Siguenos
+                    </h3>
+
+                    <ul class="footer__social">
+                        <a href="https://www.facebook.com/Olguin.propiedades1/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-facebook-circle'></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-instagram-alt'></i>
+                        </a>
+                        <a href="https://wa.me/+56932446513" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-whatsapp'></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__info container">
+            <span class="footer__copy">
+                &#169; CataPaz WD
+            </span>
+
+    </footer>
+
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-chevrons-up'></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
